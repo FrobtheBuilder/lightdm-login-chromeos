@@ -29,7 +29,7 @@ case "$1" in
       curl -z "${ZIPFILE}.zip" -o "${ZIPFILE}.zip" -L "$URL"
       unzip "${ZIPFILE}.zip" -d "/opt/"
       #rm -rf /opt/chromeos
-      mv /opt/chrome-linux /opt/chromeos
+      mv -r /opt/chrome-linux/* /opt/chromeos/*
       chmod 775 /opt/chromeos -R
       chown root:root /usr/sbin/chromeos
       chown root:root /usr/sbin/chromeos-dm
