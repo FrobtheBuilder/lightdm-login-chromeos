@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu16) trusty; urgency=medium
+
+  * doesn't like being run without suid sandbox
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 03:38:05 -0400
+
 lightdm-login-chromiumos (1.1ubuntu15) trusty; urgency=medium
 
   * what about OTHER STUPID ERROR
