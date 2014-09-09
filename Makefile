@@ -1,8 +1,10 @@
 .PHONY: default deb skip ch clean install
 
-default: douninstall doclean ch deb doinstall
+default: skip
 
 all: skip
+
+everything: doclean douninstall ch deb doinstall
 
 ch:
 	git-dch -R --auto -c --git-author
