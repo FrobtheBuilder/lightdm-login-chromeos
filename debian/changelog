@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu18) trusty; urgency=medium
+
+  * more thrashing
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 04:11:00 -0400
+
 lightdm-login-chromiumos (1.1ubuntu17) trusty; urgency=medium
 
   * going back to see if I can fix things
