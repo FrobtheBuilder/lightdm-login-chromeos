@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu11) trusty; urgency=medium
+
+  * I can't fukin write bash scripts to save my life can I
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 03:16:33 -0400
+
 lightdm-login-chromiumos (1.1ubuntu10) trusty; urgency=medium
 
   * single character error
