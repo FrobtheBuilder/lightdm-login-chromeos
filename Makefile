@@ -5,7 +5,7 @@ default: skip
 all: skip
 
 ch:
-	git-dch -R --auto -c
+	git-dch -R --auto -c --git-author
 
 deb:
 	git-buildpackage
