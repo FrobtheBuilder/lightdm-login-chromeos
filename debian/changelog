@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu15) trusty; urgency=medium
+
+  * what about OTHER STUPID ERROR
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 03:28:32 -0400
+
 lightdm-login-chromiumos (1.1ubuntu14) trusty; urgency=medium
 
   * I just wanted to save some bandwidth but apparently I'm way too bad at bash for that to work out:
