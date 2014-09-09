@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu6) trusty; urgency=medium
+
+  * fixed the InitializeICU() failure by including an icudtl.dat from another chrome installation (for some reason the snapshots are missing a VITAL FILE)
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 02:44:32 -0400
+
 lightdm-login-chromiumos (1.1ubuntu5) trusty; urgency=medium
 
   * changed make target names so dh doesn't throw a fit
