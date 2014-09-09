@@ -1,6 +1,6 @@
 .PHONY: default deb skip ch clean install
 
-default: skip
+default: douninstall doclean ch deb doinstall
 
 all: skip
 

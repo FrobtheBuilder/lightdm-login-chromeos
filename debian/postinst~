@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 
-      if [ ! -d "/opt/chrome-linux" ] || [ -z $(ls /opt/chrome-linux)]; then #don't always grab new snapshot (for dev purposes)
+      if [ ! -d "/opt/chrome-linux" ] || [ -z $(ls /opt/chrome-linux) ]; then #don't always grab new snapshot (for dev purposes)
             LKGR=$(curl http://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_ChromiumOS_Full/LAST_CHANGE)
             URL="http://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_ChromiumOS_Full/${LKGR}/chrome-linux.zip"
             ZIPFILE=$(tempfile)
