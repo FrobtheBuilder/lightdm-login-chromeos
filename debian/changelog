@@ -1,3 +1,12 @@
+lightdm-login-chromiumos (1.1ubuntu2) trusty; urgency=medium
+
+  [ = ]
+  * asdf changelog
+
+  [ frobthebuilder ]
+
+ -- frobthebuilder<ebanyash@gmail.com>  Tue, 09 Sep 2014 01:33:22 -0400
+
 lightdm-login-chromiumos (1.1ubuntu1) trusty; urgency=medium
 
   [ Janez Troha ]
