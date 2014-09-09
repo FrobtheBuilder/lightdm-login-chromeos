@@ -1,3 +1,12 @@
+lightdm-login-chromiumos (1.1ubuntu3) trusty; urgency=medium
+
+  [ frobthebuilder ]
+  * Integrated disable-setuid-sandbox fix
+
+  [ Frob ]
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 01:47:52 -0400
+
 lightdm-login-chromiumos (1.1ubuntu2) trusty; urgency=medium
 
   [ = ]
