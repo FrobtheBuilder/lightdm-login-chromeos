@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu17) trusty; urgency=medium
+
+  * going back to see if I can fix things
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 03:53:26 -0400
+
 lightdm-login-chromiumos (1.1ubuntu16) trusty; urgency=medium
 
   * doesn't like being run without suid sandbox
