@@ -1,4 +1,4 @@
-.PHONY: default deb skip ch
+.PHONY: default deb skip ch clean install
 
 default: skip
 
@@ -9,6 +9,12 @@ ch:
 
 deb:
 	git-buildpackage
+
+clean: 
+	rm ../build-area/* || exit 0
+
+install:
+	sudo dpkg -i ../build-area/$(ls | grep deb)
 
 skip:
 	echo "Tabularasa"
