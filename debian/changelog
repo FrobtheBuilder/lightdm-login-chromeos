@@ -1,3 +1,9 @@
+lightdm-login-chromiumos (1.1ubuntu8) trusty; urgency=medium
+
+  * adjusted postinstall script
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 03:09:24 -0400
+
 lightdm-login-chromiumos (1.1ubuntu7) trusty; urgency=medium
 
   * commited the file properly this time
