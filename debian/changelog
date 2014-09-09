@@ -1,3 +1,10 @@
+lightdm-login-chromiumos (1.1ubuntu4) trusty; urgency=medium
+
+  * maybe git-dch can properly guess my name now
+  * okay got the makefile right now I think
+
+ -- frobthebuilder <ebanyash@gmail.com>  Tue, 09 Sep 2014 02:10:13 -0400
+
 lightdm-login-chromiumos (1.1ubuntu3) trusty; urgency=medium
 
   [ frobthebuilder ]
