@@ -1,3 +1,15 @@
+lightdm-login-chromiumos (1.1ubuntu1) trusty; urgency=medium
+
+  [ Janez Troha ]
+  * Added simple example how to write services for network, plain mode, and boot mode
+
+  [ = ]
+  * changed maintainer so I can build
+
+  [ Frob ]
+
+ -- Frob <frob@frob-VirtualBox>  Tue, 09 Sep 2014 01:28:00 -0400
+
 lightdm-login-chromiumos (1.1) quantal; urgency=low
 
   [ dz0ny ]
