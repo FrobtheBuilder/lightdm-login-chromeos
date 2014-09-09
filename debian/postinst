@@ -21,16 +21,14 @@ set -e
 case "$1" in
     configure)
 
-      if [ ! -d "/opt/chrome-linux" ] || [ -z $(ls "/opt/chrome-linux") ]; then #don't always grab new snapshot (for dev purposes)
-            LKGR=$(curl http://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_ChromiumOS_Full/LAST_CHANGE)
-            URL="http://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_ChromiumOS_Full/${LKGR}/chrome-linux.zip"
-            ZIPFILE=$(tempfile)
-            echo "Downloading: ${URL}"
-            echo "ZIP: ${ZIPFILE}.zip"
-            curl -z "${ZIPFILE}.zip" -o "${ZIPFILE}.zip" -L "$URL"
-            unzip "${ZIPFILE}.zip" -d "/opt/"
-      fi
-      cp -r /opt/chrome-linux/* /opt/chromeos/*
+      LKGR=$(curl http://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_ChromiumOS_Full/LAST_CHANGE)
+      URL="http://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_ChromiumOS_Full/${LKGR}/chrome-linux.zip"
+      ZIPFILE=$(tempfile)
+      echo "Downloading: ${URL}"
+      echo "ZIP: ${ZIPFILE}.zip"
+      curl -z "${ZIPFILE}.zip" -o "${ZIPFILE}.zip" -L "$URL"
+      unzip "${ZIPFILE}.zip" -d "/opt/"
+      mv /opt/chrome-linux/* /opt/chromeos/*
       chmod 775 /opt/chromeos -R
       chown root:root /usr/sbin/chromeos
       chown root:root /usr/sbin/chromeos-dm
