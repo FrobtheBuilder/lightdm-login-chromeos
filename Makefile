@@ -10,10 +10,10 @@ ch:
 deb:
 	git-buildpackage
 
-clean: 
+doclean: 
 	rm ../build-area/* || exit 0
 
-install:
+doinstall:
 	sudo dpkg -i ../build-area/$(ls | grep deb)
 
 skip:
